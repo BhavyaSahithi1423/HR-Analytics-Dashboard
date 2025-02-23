@@ -1,20 +1,22 @@
-# HR-Analytics-Dashboard
+# HR Analytics Dashboard 
 
-## Overview
-This project analyzes HR data for Atliq Company, focusing on employee presence, work-from-home trends, and sick leave patterns. The analysis was performed using Power BI, leveraging data from multiple months to generate meaningful insights.
+## Problem Statement
+Managing employee attendance is crucial for productivity and workforce planning. HR teams need insights into employee presence, work-from-home trends, and sick leave patterns to make data-driven decisions.
 
-![Screenshot (20)](https://github.com/user-attachments/assets/3ce85266-e0ec-432d-9ba2-58beeae84c0e)
+![Screenshot (20)](https://github.com/user-attachments/assets/b5afe040-199f-40c1-a5ac-093a8f1d3da5)
 
-## Data Sources
-- **Employee Attendance Data** (April, May, June)
-- Transformed using Power Query (Pivoting employee names and dates into structured columns)
-- Measures created using DAX to calculate key metrics
+## Data Source
+- The dataset was obtained from **Atliq Company's website**.
+
+## Data Transformation
+- **Transformed using Power Query** (Pivoting employee names and dates into structured columns).
+- **Measures created using DAX** to calculate key metrics.
 
 ## Key Metrics and Insights
 1. **KPIs**
-   - **Presence %**: Percentage of employees present on a given day.
-   - **WFH %**: Percentage of employees working from home.
-   - **SL %**: Percentage of employees on sick leave.
+   - **Presence %**: Employee attendance percentage.
+   - **WFH %**: Work-from-home trends.
+   - **SL %**: Sick leave patterns.
 
 2. **Few DAX Formulas Used**
    - **Presence % Calculation:**
@@ -33,7 +35,7 @@ This project analyzes HR data for Atliq Company, focusing on employee presence, 
 3. **Visualizations**
    - **Trend Graphs** for Presence, WFH, and SL percentages over time.
    - **Tables** displaying daily and aggregated attendance data.
-   
+
 4. **Insights**
    - Identified trends in work-from-home preferences.
    - Patterns in employee presence and sick leave.
@@ -44,13 +46,15 @@ This project analyzes HR data for Atliq Company, focusing on employee presence, 
 - **Power Query** for Data Transformation
 - **DAX** for Custom Measures
 
+## Final Outcomes
+- **Optimized HR decision-making** by analyzing attendance patterns.
+- **Identified trends** in work-from-home and sick leave usage.
+- **Provided insights** for workforce planning and productivity improvements.
+
 ## Future Enhancements
-- **Real-time Data Integration** for live attendance tracking.
-- **Automated Alerts** for abnormal attendance patterns.
-- **Access Privileges** for role-based data access.
+1. **Real-time Data Integration** for live attendance tracking.
+2. **Automated Alerts** for abnormal attendance patterns.
+3. **Access Privileges** for role-based data access.
 
 ## Conclusion
 This dashboard provides a clear view of employee attendance trends, helping HR make data-driven decisions. The insights assist in workforce planning, policy improvements, and understanding employee behavior.
-
-
-
